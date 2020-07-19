@@ -1,2 +1,10 @@
-# custom keymap for planck ez by xorplanet. Started with coloneljesus's layout.
+# custom keymap for planck ez by xorplanet.
+
+                          _                  _
+    __  _____  _ __ _ __ | | __ _ _ __   ___| |_
+    \ \/ / _ \| '__| '_ \| |/ _` | '_ \ / _ \ __|
+     >  < (_) | |  | |_) | | (_| | | | |  __/ |_
+    /_/\_\___/|_|  | .__/|_|\__,_|_| |_|\___|\__|
+                   |_|
+
 
