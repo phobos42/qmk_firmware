@@ -68,22 +68,22 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* NumPad 
  * ,-----------------------------------------------------------------------------------.
- * |      |      |      |      |      |      |      |      |   7  |   8  |   9  |      |
+ * |      |      |      |      |      |      |      |      |      |   7  |   8  |   9  |
  * |------+------+------+------+------+-------------+------+------+------+------+------|
- * |      |      |      |      |      |      |      |      |   4  |   5  |   6  |      |
+ * |      |      |      |      |      |      |      |  +   |   -  |   4  |   5  |   6  |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
- * |      |      |      |      |      |      |      |      |   1  |   2  |   3  |      |
+ * |      |      |      |      |      |      |      |      |      |   1  |   2  |   3  |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * |      |      |      |      |      |             |      | NUMP |   0  |   .  |      |
+ * |      |      |      |      |      |             |      | NUMP |      |   0  |   .  |
  * `-----------------------------------------------------------------------------------'
  */
 [_NUMP] = LAYOUT_planck_grid(
-  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_7,    KC_8,    KC_9,   _______,
-  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_4,    KC_5,    KC_6,   XXXXXXX,
-  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_1,    KC_2,    KC_3,   XXXXXXX,
-  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______, XXXXXXX, _______, KC_0,    KC_DOT, XXXXXXX
-),
-
+  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,   _______, KC_7,    KC_8,    KC_9,
+  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, S(KC_EQL), KC_MINS, KC_4,    KC_5,    KC_6,
+  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,   _______, KC_1,    KC_2,    KC_3,
+  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______, XXXXXXX,   _______, KC_0,    KC_DOT, XXXXXXX
+),  
+E
 
 /* Lower
  * ,-----------------------------------------------------------------------------------.
