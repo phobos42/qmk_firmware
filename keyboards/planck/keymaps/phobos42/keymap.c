@@ -162,7 +162,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   LED_LEVEL,  AU_PREV, AU_NEXT,  MU_ON,   MU_OFF,  MI_ON,   MI_OFF, _______, _______, _______, _______, _______,
   _______,    _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
 )
-
 };
 
 
